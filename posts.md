@@ -6,8 +6,8 @@ layout: default
 ---
 <body>
 
-<h1> Latest Posts </h1>
-{% for post in site.posts limit:5 %}
-    <a href="{{post.url}}">[{{post.date | date: '%d-%m-%Y'}}] {{post.title}}</a><br>
+<h1> All Posts </h1>
+{% for post in site.posts %}
+    <a href="{{post.url}}">[{{post.date | date: '%d-%m-%Y'}}] {{post.title}}</a>
 {% endfor %}
 </body>
