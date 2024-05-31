@@ -1,5 +1,9 @@
-
-# Building a CI/CD pipeline for my CV
+---
+layout: default
+title: Creating a CI/CD pipeline for my CV.
+date: 2024-05-30
+categories: devops
+---
 
 In this blogpost I will discuss how I build a CI/CD pipeline for my resume site.
 The technologies used are the following:
